@@ -1,24 +1,41 @@
-<style>
+ 
 
+    h1 {
+      text-align: center;
+      background-size: cover;
+      color: white;
+      font-family: 'Fredericka the Great', cursive;
+      background-image: url(grass.png);
+      margin-top: -10px;
+      margin-bottom: -10px;
+    }
 
+    h2 {
+      text-align: center;
+      color: black;
+      font-family: 'Fredericka the Great', cursive;
 
+    }
+    
+    a {
+      color: white;
+    }
 
+    h1 {
+      font-size: 100px;
+    
+    }
+    ul {
+      text-align: center;
+      padding: 10px;
+      background: black;
+      color: white;
+      position: center;
+    }
+    
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+   
 
-
-
-
-
-
-
-
-body{
-    background-color: lightblue;
-  }
-
-
-
-
-
-
-
-  </style>
