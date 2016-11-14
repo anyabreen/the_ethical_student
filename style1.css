@@ -25,16 +25,17 @@
       font-size: 100px;
     
     }
-    ul {
-      text-align: center;
+    .menu ul {
+      
       padding: 10px;
       background: black;
       color: white;
       position: center;
     }
     
-    li {
+    .menu li {
       display: inline;
+       
       padding: 0px 10px 0px 10px;
     }
    .first{
