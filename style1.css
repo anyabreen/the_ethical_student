@@ -37,5 +37,48 @@
       display: inline;
       padding: 0px 10px 0px 10px;
     }
-   
+   .first{
+  background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
+}
+.second{
+  background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+}
+.third{
+  background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+}
+.price {
+  float: right;
+}
+
+
+.food {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
 

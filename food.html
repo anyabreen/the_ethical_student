@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link href='style1.css' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+ 
+
+
+</head>
+
+
+<body>
+
+  
+<article>
+  <header>
+
+    <h1>The Ethical Student</h1>
+    <h2> Sustainably sourced products for the environmentally-conscious student</h2>
+
+    <ul>
+    
+     <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li> 
+       <div class="dropdown">
+       <a id="dLabel" data-target="products.html" href="products.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span>
+       </a>
+
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a href="food.html">Food</a></li>
+        <li><a href="toiletries.html">Toiletries</a></li>
+        <li><a href="clothing.html">Clothing</a></li>
+      </ul>
+      </div>
+      </li>
+      <li><a href="top_10_of_the_month.html">Our Top 10 This Month</a></li>
+  
+    </ul>
+  </header>
+</article> 
+<article>
+<div class="food">
+<h2>FOOD</h2>
+
+<div class="first">
+  <p>welsh onion soko <span class="price">$14</span><br />
+  <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+</div>
+
+<div class="second">
+  <p>pastrami boudin tongue <span class="price">$22</span><br />
+  <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+</div>
+  
+<div class="third">
+  <p>fruitcake marzipan pudding dragee <span class="price">$8</span><br />
+  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+</div>
+</article>
+</body>

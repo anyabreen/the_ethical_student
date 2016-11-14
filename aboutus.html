@@ -6,7 +6,7 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link href='style1.css' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
- 
+
   
 </head>
 <body>
@@ -17,7 +17,18 @@
     <ul>
     <li><a href="index.html">Home</a></li>
       <li><a href="aboutus.html">About Us</a></li>
-      <li><a href="products.html">Products</a></li>
+       <li>
+       <div class="dropdown">
+       <a id="dLabel" data-target="" href="products.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span>
+       </a>
+
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a href="food.html">Food</a></li>
+        <li><a href="toiletries.html">Toiletries</a></li>
+        <li><a href="clothing.html">Clothing</a></li>
+      </ul>
+      </div>
+      </li>
       <li><a href="top_10_of_the_month.html">Top 10 of the month</a></li>
     </ul>
   </header>
