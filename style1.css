@@ -31,13 +31,16 @@
       background: black;
       color: white;
       position: center;
-    }
-    
-    .menu li {
+}
+
+.menu li {
+  padding: 10px;
+      background: black;
+      color: white;
+      position: center;
       display: inline;
-       
-      padding: 0px 10px 0px 10px;
-    }
+}
+
    .first{
   background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
 }
