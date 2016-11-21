@@ -34,6 +34,7 @@
       background: black;
       color: white;
       position: center;
+
       margin: auto;
     }
 
@@ -76,6 +77,10 @@ p {
       text-align: center;
       margin: auto;
     }
+
+
+
+
    .first{
   background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
 }
