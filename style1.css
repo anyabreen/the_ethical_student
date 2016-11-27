@@ -17,7 +17,10 @@
 
 
     }
-   
+   article {
+     padding-left: auto;
+      padding-right: auto;
+   }
 
     a {
       color: white;
@@ -39,9 +42,14 @@
 
       margin: auto;
     }
-
+button {
+   padding-left: auto;
+      padding-right: auto;
+}
 p {
   padding-top: 10px;
+   padding-left: auto;
+      padding-right: auto;
 }
 h3 {
 
