@@ -6,7 +6,7 @@
       color: white;
       font-family: 'Fredericka the Great', cursive;
       background-image: url(grass.png);
-      margin-top: -10px;
+      margin-top: 10px;
       margin-bottom: -10px;
     }
 
@@ -15,8 +15,10 @@
       color: black;
       font-family: 'Fredericka the Great', cursive;
 
+
     }
-    
+   
+
     a {
       color: white;
     }
@@ -27,19 +29,64 @@
     }
     .menu ul {
       
-      padding: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: auto;
+      padding-right: auto;
       background: black;
       color: white;
       position: center;
+
+      margin: auto;
+    }
+
+p {
+  padding-top: 10px;
+}
+h3 {
+
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    color: black;
+
 }
 
-.menu li {
-  padding: 10px;
-      background: black;
-      color: white;
-      position: center;
-      display: inline;
+h4 {
+
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+
 }
+
+p {
+	 font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    color: black;
+}
+    
+    
+    .menu li {
+      display: inline;
+  
+      padding: 0px 10px 0px 10px;
+      
+      margin: auto;
+    }
+    .menu {
+      margin: auto;
+    }
+    .dropdown {
+      display: inline;
+      text-align: center;
+      margin: auto;
+    }
+
+.mailing {
+  text-align: center; 
+}
+
 
    .first{
   background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
@@ -71,6 +118,9 @@
   transition: height .5s;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
+}
+.carousel-inner img {
+  margin: auto;
 }
 
 small {
