@@ -24,7 +24,14 @@
 
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   
 <article>
   <header>
@@ -104,10 +111,13 @@
 </article>
 <!--END CAROUSEL-->
 
-
-
   <h2></h2>
 
-<article> <p></p> <button >Our Facebook Page</button> </article>
-<script> $("button").on("click", function(){ alert ("clicked!") });</script> 
+<article> <p></p> <button type="button" id="Button" data-href="https://www.facebook.com/theethicalstudent/">Our Facebook Page</button> </article>
+<script type="text/javascript">
+    $('#Button').click(function(e) {
+        e.preventDefault(); e.stopPropagation();
+        window.location.href = $(e.currentTarget).data().href;
+    });
+</script>
 </body> 
